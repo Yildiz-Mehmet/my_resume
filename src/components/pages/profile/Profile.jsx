@@ -9,7 +9,7 @@ export default function Profile() {
         <div className="card-image">
           <img className="activator" src={ImgProfile} alt="John Doe" />
           <Link className="btn-floating halfway-fab waves-effect waves-light red">
-            <i className="material-icons activator">more_vert</i>
+            <i className="material-icons activator">mor</i>
           </Link>
         </div>
         <div className="card-content">
