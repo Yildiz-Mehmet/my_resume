@@ -11,13 +11,15 @@ import Portfolios from "./components/pages/portfolios/Portfolios";
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/experiences" element={<Experiences />} />
-        <Route path="/educations" element={<Educations />} />
-        <Route path="/portfolios" element={<Portfolios />} />
-      </Routes>
+      <>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/experiences" element={<Experiences />} />
+          <Route path="/educations" element={<Educations />} />
+          <Route path="/portfolios" element={<Portfolios />} />
+        </Routes>
+      </>
     </Router>
   );
 }
